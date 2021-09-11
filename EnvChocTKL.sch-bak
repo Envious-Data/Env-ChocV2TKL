@@ -2854,10 +2854,10 @@ Wire Wire Line
 Wire Wire Line
 	18800 950  18800 1950
 $Comp
-L Mechanical:MountingHole Stab
+L Mechanical:MountingHole Stab1
 U 1 1 61464BFA
 P 8800 7600
-F 0 "Stab" H 8900 7600 50  0000 L CNN
+F 0 "Stab1" H 8900 7600 50  0000 L CNN
 F 1 "MountingHole_Pad" H 8900 7555 50  0001 L CNN
 F 2 "Mounting_Keyboard_Stabilizer:Stabilizer_Cherry_MX_2u" H 8800 7600 50  0001 C CNN
 F 3 "~" H 8800 7600 50  0001 C CNN
@@ -2865,10 +2865,10 @@ F 3 "~" H 8800 7600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole Stab?
+L Mechanical:MountingHole Stab2
 U 1 1 614A85E1
 P 8800 7800
-F 0 "Stab?" H 8900 7800 50  0000 L CNN
+F 0 "Stab2" H 8900 7800 50  0000 L CNN
 F 1 "MountingHole_Pad" H 8900 7755 50  0001 L CNN
 F 2 "Mounting_Keyboard_Stabilizer:Stabilizer_Cherry_MX_2u" H 8800 7800 50  0001 C CNN
 F 3 "~" H 8800 7800 50  0001 C CNN
@@ -2876,10 +2876,10 @@ F 3 "~" H 8800 7800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole Stab?
+L Mechanical:MountingHole Stab3
 U 1 1 614A87E4
 P 8800 8000
-F 0 "Stab?" H 8900 8000 50  0000 L CNN
+F 0 "Stab3" H 8900 8000 50  0000 L CNN
 F 1 "MountingHole_Pad" H 8900 7955 50  0001 L CNN
 F 2 "Mounting_Keyboard_Stabilizer:Stabilizer_Cherry_MX_2u" H 8800 8000 50  0001 C CNN
 F 3 "~" H 8800 8000 50  0001 C CNN
@@ -2887,10 +2887,10 @@ F 3 "~" H 8800 8000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole Stab?
+L Mechanical:MountingHole Stab4
 U 1 1 61530FFA
 P 8800 8200
-F 0 "Stab?" H 8900 8200 50  0000 L CNN
+F 0 "Stab4" H 8900 8200 50  0000 L CNN
 F 1 "MountingHole_Pad" H 8900 8155 50  0001 L CNN
 F 2 "Mounting_Keyboard_Stabilizer:Stabilizer_Cherry_MX_6.25u" H 8800 8200 50  0001 C CNN
 F 3 "~" H 8800 8200 50  0001 C CNN
@@ -2946,10 +2946,10 @@ col0
 Text GLabel 4550 7650 0    50   Input ~ 0
 col1
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0101
 U 1 1 6145B563
 P 5950 7650
-F 0 "#PWR?" H 5950 7400 50  0001 C CNN
+F 0 "#PWR0101" H 5950 7400 50  0001 C CNN
 F 1 "GND" V 5955 7522 50  0000 R CNN
 F 2 "" H 5950 7650 50  0001 C CNN
 F 3 "" H 5950 7650 50  0001 C CNN
@@ -2966,10 +2966,10 @@ Wire Wire Line
 	4500 7800 4500 7750
 Connection ~ 4500 7800
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0102
 U 1 1 613F350E
 P 4500 7800
-F 0 "#PWR?" H 4500 7550 50  0001 C CNN
+F 0 "#PWR0102" H 4500 7550 50  0001 C CNN
 F 1 "GND" V 4505 7672 50  0000 R CNN
 F 2 "" H 4500 7800 50  0001 C CNN
 F 3 "" H 4500 7800 50  0001 C CNN
@@ -2977,14 +2977,88 @@ F 3 "" H 4500 7800 50  0001 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L keebio:Elite-C U?
+L keebio:Elite-C U1
 U 1 1 613EDFBC
 P 5250 8100
-F 0 "U?" H 5250 8937 60  0000 C CNN
+F 0 "U1" H 5250 8937 60  0000 C CNN
 F 1 "EliteC" H 5250 8831 60  0000 C CNN
 F 2 "Keebio-Parts:Elite-C" V 6300 5600 60  0001 C CNN
 F 3 "" V 6300 5600 60  0001 C CNN
 	1    5250 8100
 	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H?
+U 1 1 613EF488
+P 10100 7450
+F 0 "H?" H 10200 7453 50  0000 L CNN
+F 1 "MountingHole_Pad" H 10200 7408 50  0001 L CNN
+F 2 "MountingHole:MountingHole_2.5mm_Pad" H 10100 7450 50  0001 C CNN
+F 3 "~" H 10100 7450 50  0001 C CNN
+	1    10100 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H?
+U 1 1 613F0F2A
+P 10400 7450
+F 0 "H?" H 10500 7453 50  0000 L CNN
+F 1 "MountingHole_Pad" H 10500 7408 50  0001 L CNN
+F 2 "MountingHole:MountingHole_2.5mm_Pad" H 10400 7450 50  0001 C CNN
+F 3 "~" H 10400 7450 50  0001 C CNN
+	1    10400 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H?
+U 1 1 613F142B
+P 10700 7450
+F 0 "H?" H 10800 7453 50  0000 L CNN
+F 1 "MountingHole_Pad" H 10800 7408 50  0001 L CNN
+F 2 "MountingHole:MountingHole_2.5mm_Pad" H 10700 7450 50  0001 C CNN
+F 3 "~" H 10700 7450 50  0001 C CNN
+	1    10700 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H?
+U 1 1 613F17DC
+P 11000 7450
+F 0 "H?" H 11100 7453 50  0000 L CNN
+F 1 "MountingHole_Pad" H 11100 7408 50  0001 L CNN
+F 2 "MountingHole:MountingHole_2.5mm_Pad" H 11000 7450 50  0001 C CNN
+F 3 "~" H 11000 7450 50  0001 C CNN
+	1    11000 7450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10100 7550 10100 7650
+Wire Wire Line
+	11000 7550 11000 7650
+Connection ~ 11000 7650
+Wire Wire Line
+	11000 7650 11050 7650
+Wire Wire Line
+	10700 7550 10700 7650
+Connection ~ 10700 7650
+Wire Wire Line
+	10700 7650 11000 7650
+Wire Wire Line
+	10400 7550 10400 7650
+Wire Wire Line
+	10100 7650 10400 7650
+Connection ~ 10400 7650
+Wire Wire Line
+	10400 7650 10700 7650
+$Comp
+L power:GND #PWR?
+U 1 1 614A57C4
+P 11050 7650
+F 0 "#PWR?" H 11050 7400 50  0001 C CNN
+F 1 "GND" V 11055 7522 50  0000 R CNN
+F 2 "" H 11050 7650 50  0001 C CNN
+F 3 "" H 11050 7650 50  0001 C CNN
+	1    11050 7650
+	0    -1   -1   0   
 $EndComp
 $EndSCHEMATC

@@ -2897,12 +2897,6 @@ F 3 "~" H 8800 8200 50  0001 C CNN
 	1    8800 8200
 	1    0    0    -1  
 $EndComp
-Text GLabel 5950 8650 2    50   Input ~ 0
-col15
-Text GLabel 5950 8550 2    50   Input ~ 0
-col16
-Text GLabel 5950 8450 2    50   Input ~ 0
-col17
 Text GLabel 5950 8350 2    50   Input ~ 0
 row0
 Text GLabel 5950 8250 2    50   Input ~ 0
@@ -2915,36 +2909,6 @@ Text GLabel 5950 7950 2    50   Input ~ 0
 row4
 Text GLabel 5950 7550 2    50   Input ~ 0
 row5
-Text GLabel 5450 9050 3    50   Input ~ 0
-col14
-Text GLabel 5350 9050 3    50   Input ~ 0
-col13
-Text GLabel 5250 9050 3    50   Input ~ 0
-col12
-Text GLabel 5150 9050 3    50   Input ~ 0
-col11
-Text GLabel 5050 9050 3    50   Input ~ 0
-col10
-Text GLabel 4550 8650 0    50   Input ~ 0
-col9
-Text GLabel 4550 8550 0    50   Input ~ 0
-col8
-Text GLabel 4550 8450 0    50   Input ~ 0
-col7
-Text GLabel 4550 8350 0    50   Input ~ 0
-col6
-Text GLabel 4550 8250 0    50   Input ~ 0
-col5
-Text GLabel 4550 8150 0    50   Input ~ 0
-col4
-Text GLabel 4550 8050 0    50   Input ~ 0
-col3
-Text GLabel 4550 7950 0    50   Input ~ 0
-col2
-Text GLabel 4550 7550 0    50   Input ~ 0
-col0
-Text GLabel 4550 7650 0    50   Input ~ 0
-col1
 $Comp
 L power:GND #PWR0101
 U 1 1 6145B563
@@ -2960,33 +2924,6 @@ Wire Wire Line
 	4500 7850 4550 7850
 Wire Wire Line
 	4500 7750 4550 7750
-Wire Wire Line
-	4500 7800 4500 7850
-Wire Wire Line
-	4500 7800 4500 7750
-Connection ~ 4500 7800
-$Comp
-L power:GND #PWR0102
-U 1 1 613F350E
-P 4500 7800
-F 0 "#PWR0102" H 4500 7550 50  0001 C CNN
-F 1 "GND" V 4505 7672 50  0000 R CNN
-F 2 "" H 4500 7800 50  0001 C CNN
-F 3 "" H 4500 7800 50  0001 C CNN
-	1    4500 7800
-	0    1    -1   0   
-$EndComp
-$Comp
-L keebio:Elite-C U1
-U 1 1 613EDFBC
-P 5250 8100
-F 0 "U1" H 5250 8937 60  0000 C CNN
-F 1 "EliteC" H 5250 8831 60  0000 C CNN
-F 2 "Keebio-Parts:Elite-C" V 6300 5600 60  0001 C CNN
-F 3 "" V 6300 5600 60  0001 C CNN
-	1    5250 8100
-	1    0    0    -1  
-$EndComp
 $Comp
 L Mechanical:MountingHole_Pad H1
 U 1 1 613EF488
@@ -3060,5 +2997,68 @@ F 2 "" H 11050 7650 50  0001 C CNN
 F 3 "" H 11050 7650 50  0001 C CNN
 	1    11050 7650
 	0    -1   -1   0   
+$EndComp
+Connection ~ 4500 7800
+Wire Wire Line
+	4500 7800 4500 7750
+Wire Wire Line
+	4500 7800 4500 7850
+$Comp
+L power:GND #PWR0102
+U 1 1 613F350E
+P 4500 7800
+F 0 "#PWR0102" H 4500 7550 50  0001 C CNN
+F 1 "GND" V 4505 7672 50  0000 R CNN
+F 2 "" H 4500 7800 50  0001 C CNN
+F 3 "" H 4500 7800 50  0001 C CNN
+	1    4500 7800
+	0    1    -1   0   
+$EndComp
+Text GLabel 5450 9050 3    50   Input ~ 0
+col3
+Text GLabel 5350 9050 3    50   Input ~ 0
+col4
+Text GLabel 5250 9050 3    50   Input ~ 0
+col5
+Text GLabel 5150 9050 3    50   Input ~ 0
+col6
+Text GLabel 5050 9050 3    50   Input ~ 0
+col7
+Text GLabel 4550 8650 0    50   Input ~ 0
+col8
+Text GLabel 4550 8550 0    50   Input ~ 0
+col9
+Text GLabel 4550 8450 0    50   Input ~ 0
+col10
+Text GLabel 4550 8350 0    50   Input ~ 0
+col11
+Text GLabel 4550 8250 0    50   Input ~ 0
+col12
+Text GLabel 4550 8150 0    50   Input ~ 0
+col13
+Text GLabel 4550 8050 0    50   Input ~ 0
+col14
+Text GLabel 4550 7550 0    50   Input ~ 0
+col17
+Text GLabel 4550 7650 0    50   Input ~ 0
+col16
+Text GLabel 4550 7950 0    50   Input ~ 0
+col15
+Text GLabel 5950 8650 2    50   Input ~ 0
+col2
+Text GLabel 5950 8450 2    50   Input ~ 0
+col0
+Text GLabel 5950 8550 2    50   Input ~ 0
+col1
+$Comp
+L keebio:Elite-C U1
+U 1 1 613EDFBC
+P 5250 8100
+F 0 "U1" H 5250 8937 60  0000 C CNN
+F 1 "EliteC" H 5250 8831 60  0000 C CNN
+F 2 "Keebio-Parts:Elite-C" V 6300 5600 60  0001 C CNN
+F 3 "" V 6300 5600 60  0001 C CNN
+	1    5250 8100
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

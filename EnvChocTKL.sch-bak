@@ -2897,17 +2897,17 @@ F 3 "~" H 8800 8200 50  0001 C CNN
 	1    8800 8200
 	1    0    0    -1  
 $EndComp
-Text GLabel 5950 7550 2    50   Input ~ 0
-row0
-Text GLabel 5950 7950 2    50   Input ~ 0
-row1
-Text GLabel 5950 8050 2    50   Input ~ 0
-row2
-Text GLabel 5950 8150 2    50   Input ~ 0
-row3
-Text GLabel 5950 8250 2    50   Input ~ 0
-row4
 Text GLabel 5950 8350 2    50   Input ~ 0
+row0
+Text GLabel 5950 8250 2    50   Input ~ 0
+row1
+Text GLabel 5950 8150 2    50   Input ~ 0
+row2
+Text GLabel 5950 8050 2    50   Input ~ 0
+row3
+Text GLabel 5950 7950 2    50   Input ~ 0
+row4
+Text GLabel 5950 7550 2    50   Input ~ 0
 row5
 $Comp
 L power:GND #PWR0101

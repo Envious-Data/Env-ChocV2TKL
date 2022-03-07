@@ -10079,10 +10079,10 @@
     (property "Reference" "R2" (id 0) (at 65.278 109.3216 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "10K 0201" (id 1) (at 65.278 111.633 0)
+    (property "Value" "10K 0402" (id 1) (at 65.278 111.633 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0201_0603Metric" (id 2) (at 61.722 110.49 90)
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (id 2) (at 61.722 110.49 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 63.5 110.49 0)
@@ -10100,7 +10100,7 @@
     (uuid 00000000-0000-0000-0000-00005edae9f0)
     (property "Reference" "R1" (id 0) (at 48.26 120.4722 90))
     (property "Value" "1K 0201" (id 1) (at 48.26 122.7836 90))
-    (property "Footprint" "Capacitor_SMD:C_0201_0603Metric" (id 2) (at 48.26 123.952 90)
+    (property "Footprint" "Resistor_SMD:R_0201_0603Metric" (id 2) (at 48.26 123.952 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 48.26 125.73 0)
@@ -10682,7 +10682,7 @@
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000608edada)
     (property "Reference" "FLASH1" (id 0) (at 78.74 133.35 0))
-    (property "Value" "W25Q16JVUXIQ" (id 1) (at 78.74 146.05 0))
+    (property "Value" "W25Q16J" (id 1) (at 78.74 146.05 0))
     (property "Footprint" "Package_SON:SON-8-1EP_3x2mm_P0.5mm_EP1.4x1.6mm" (id 2) (at 78.74 133.35 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
@@ -11448,7 +11448,7 @@
     (uuid 00000000-0000-0000-0000-00006150e6ab)
     (property "Reference" "R11" (id 0) (at 69.85 203.0222 90))
     (property "Value" "1K 0201" (id 1) (at 69.85 205.3336 90))
-    (property "Footprint" "Capacitor_SMD:C_0201_0603Metric" (id 2) (at 69.85 206.502 90)
+    (property "Footprint" "Resistor_SMD:R_0201_0603Metric" (id 2) (at 69.85 206.502 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 69.85 208.28 0)
@@ -12065,7 +12065,7 @@
       (reference "FB1") (unit 1) (value "FerriteBead") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000608edada"
-      (reference "FLASH1") (unit 1) (value "W25Q16JVUXIQ") (footprint "Package_SON:SON-8-1EP_3x2mm_P0.5mm_EP1.4x1.6mm")
+      (reference "FLASH1") (unit 1) (value "W25Q16J") (footprint "Package_SON:SON-8-1EP_3x2mm_P0.5mm_EP1.4x1.6mm")
     )
     (path "/00000000-0000-0000-0000-000061cdafdc"
       (reference "GPIO24_LED1") (unit 1) (value "LED_0402") (footprint "LED_SMD:LED_0402_1005Metric")
@@ -12368,10 +12368,10 @@
       (reference "Q1") (unit 1) (value "Si2329DS") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
     (path "/00000000-0000-0000-0000-00005edae9f0"
-      (reference "R1") (unit 1) (value "1K 0201") (footprint "Capacitor_SMD:C_0201_0603Metric")
+      (reference "R1") (unit 1) (value "1K 0201") (footprint "Resistor_SMD:R_0201_0603Metric")
     )
     (path "/00000000-0000-0000-0000-00005edac067"
-      (reference "R2") (unit 1) (value "10K 0201") (footprint "Capacitor_SMD:C_0201_0603Metric")
+      (reference "R2") (unit 1) (value "10K 0402") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-00005ede0881"
       (reference "R3") (unit 1) (value "27 0402 Resistor") (footprint "Resistor_SMD:R_0402_1005Metric")
@@ -12395,7 +12395,7 @@
       (reference "R10") (unit 1) (value "1 0402") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-00006150e6ab"
-      (reference "R11") (unit 1) (value "1K 0201") (footprint "Capacitor_SMD:C_0201_0603Metric")
+      (reference "R11") (unit 1) (value "1K 0201") (footprint "Resistor_SMD:R_0201_0603Metric")
     )
     (path "/00000000-0000-0000-0000-00006142c001"
       (reference "RSW1") (unit 1) (value "SKRKAEE020") (footprint "Button_Switch_SMD:SW_Push_SPST_NO_Alps_SKRK")

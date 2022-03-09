@@ -10682,8 +10682,8 @@
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000608edada)
     (property "Reference" "FLASH1" (id 0) (at 78.74 133.35 0))
-    (property "Value" "W25Q16J" (id 1) (at 78.74 146.05 0))
-    (property "Footprint" "Package_SON:SON-8-1EP_3x2mm_P0.5mm_EP1.4x1.6mm" (id 2) (at 78.74 133.35 0)
+    (property "Value" "W25Q16JVSSIQ" (id 1) (at 78.74 146.05 0))
+    (property "Footprint" "Package_SO:SOIC-8_5.23x5.23mm_P1.27mm" (id 2) (at 78.74 133.35 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
     (property "Datasheet" "" (id 3) (at 78.74 133.35 0)
@@ -10940,7 +10940,7 @@
     (property "Value" "Conn_01x03_Male" (id 1) (at 301.752 119.3546 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Connector_JST:JST_PH_B3B-PH-SM4-TB_1x03-1MP_P2.00mm_Vertical" (id 2) (at 299.72 118.11 0)
+    (property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm" (id 2) (at 299.72 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 299.72 118.11 0)
@@ -12065,7 +12065,7 @@
       (reference "FB1") (unit 1) (value "FerriteBead") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000608edada"
-      (reference "FLASH1") (unit 1) (value "W25Q16J") (footprint "Package_SON:SON-8-1EP_3x2mm_P0.5mm_EP1.4x1.6mm")
+      (reference "FLASH1") (unit 1) (value "W25Q16JVSSIQ") (footprint "Package_SO:SOIC-8_5.23x5.23mm_P1.27mm")
     )
     (path "/00000000-0000-0000-0000-000061cdafdc"
       (reference "GPIO24_LED1") (unit 1) (value "LED_0402") (footprint "LED_SMD:LED_0402_1005Metric")
@@ -12095,7 +12095,7 @@
       (reference "J2") (unit 1) (value "SKRKAEE020") (footprint "Button_Switch_SMD:SW_Push_SPST_NO_Alps_SKRK")
     )
     (path "/00000000-0000-0000-0000-000060ce2dd4"
-      (reference "J5") (unit 1) (value "Conn_01x03_Male") (footprint "Connector_JST:JST_PH_B3B-PH-SM4-TB_1x03-1MP_P2.00mm_Vertical")
+      (reference "J5") (unit 1) (value "Conn_01x03_Male") (footprint "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm")
     )
     (path "/00000000-0000-0000-0000-000000000001"
       (reference "K_0") (unit 1) (value "KEYSW") (footprint "Switch_Keyboard_Kailh:SW_Kailh_Choc_V2")

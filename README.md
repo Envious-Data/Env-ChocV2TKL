@@ -1,5 +1,5 @@
 # Env-ChocV2TKL
-A Compact TKL layout utilizing Choc V2s and a Elite-C
+A Compact TKL layout utilizing Choc V2s and a Raspberry Pi Pico
 
 ### What this is
 This is an experiment/concept, Ive been wanting a choc keyboard for a while but finding keycaps for choc V1s is rather difficult. There are also almost no ISO Keycap sets that would go on a TKL HOWEVER! it appears Choc V2s are more alike cherry LP switches which fit normal MX keycaps, they have a different footprint to Choc V1s and MX style switches (which Cherry LP is also not like normal MX).

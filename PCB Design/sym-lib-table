@@ -6,4 +6,5 @@
   (lib (name "Type-C")(type "Legacy")(uri "${KIPRJMOD}/Schematic/Type-C.lib")(options "")(descr ""))
   (lib (name "W25Q256JVEIQ_TR")(type "Legacy")(uri "${KIPRJMOD}/Schematic/W25Q256JVEIQ_TR.lib")(options "")(descr ""))
   (lib (name "PicoModified")(type "KiCad")(uri "${KIPRJMOD}/Footprints/MCU_RaspberryPi_and_Boards.pretty/PicoModified.kicad_sym")(options "")(descr ""))
+  (lib (name "josh-connector")(type "Legacy")(uri "${KIPRJMOD}/Footprints/josh-connectors.pretty/josh-connector.lib")(options "")(descr ""))
 )

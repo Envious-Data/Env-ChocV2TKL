@@ -14,4 +14,5 @@
   (lib (name "RP2040_minimal")(type "KiCad")(uri "${KIPRJMOD}/Footprints/RP2040_minimal.pretty")(options "")(descr ""))
   (lib (name "W25Q256JVEIQ_TR")(type "KiCad")(uri "${KIPRJMOD}/Footprints/W25Q256JVEIQ_TR.pretty")(options "")(descr ""))
   (lib (name "HRO-TYPE-C31-M-12")(type "KiCad")(uri "${KIPRJMOD}/Footprints/HRO-TYPE-C31-M-12.pretty")(options "")(descr ""))
+  (lib (name "josh-connectors")(type "KiCad")(uri "${KIPRJMOD}/Footprints/josh-connectors.pretty")(options "")(descr ""))
 )
